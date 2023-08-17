@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./src/**/*.{js,jsx"],
+
+module.exports = {
+  content: ["./src/**/*.{js,jsx}"],
   mode: "jit", /* Just in Time */
   theme: {
     extend: {
@@ -8,7 +9,7 @@ export default {
         primaryColor: "#070818",
         secondaryColor: "#ada8c5",
         accent: "#171032",
-        "dark-100": "110f27",
+        "dark-100": "#110f27",
         "dark-200": "#0b0527",
         "light-gray": "#f5f5f5",
       },
@@ -24,5 +25,5 @@ export default {
     },
   },
   plugins: [],
-}
+};
 
