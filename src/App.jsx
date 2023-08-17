@@ -1,11 +1,17 @@
+import { BrowserRouter} from "react-router-dom";
 
+import {About, Hero, Contact} from "./components" ;
 
 const App = () => {
 
   return (
-    <div>
-      my portfolio
-    </div>
+    <BrowserRouter>    
+      <div>
+        <Hero />
+        <About />
+        <Contact />
+      </div>
+    </BrowserRouter>
   )
 }
 

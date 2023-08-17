@@ -12,10 +12,6 @@ export default {
         "dark-200": "#0b0527",
         "light-gray": "#f5f5f5",
       },
-      fontFamily: {
-        sans: ['Graphik', 'sans-serif'],
-        serif: ['Merriweather', 'serif'],
-      },
       boxShadow: {
         customBox: "0px 30px 110px -10px #221f37"
       },
@@ -23,7 +19,7 @@ export default {
         mini: "450px",
       },
       backgroundImage: {
-        "pattern-hero": " placeholder "
+        "pattern-hero": "url('/src/assets/herobg.png')"
       }
     },
   },
